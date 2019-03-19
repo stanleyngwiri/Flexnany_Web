@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+}
+img{
+  width: 60px;
+  height: 60px;
+
+}
+
+form {
+  margin: auto;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #038709;
+  outline: none;
+}
+
+textarea {
+  width: 60%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid #038709;
+  outline: none;
+}
+
+.form-group {
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+  background-color: #F4D03F;
+}

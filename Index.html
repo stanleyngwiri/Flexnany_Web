@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexnany</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/stroller.png">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>FLEXNANY</h1>
+    <h2>Admin</h2>
+    <img id="logo" src="images/stroller.png">
+
+    <form class="needs-validation" novalidate>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-input" id="firstname" placeholder="Enter Firstname" name="firstname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-input" id="lastname" placeholder="Enter Lastname" name="lastname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="number" class="form-input" id="phone_no" placeholder="Enter phone_no" name="phone_no" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-input" id="location" placeholder="Enter location" name="location" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <input type="number" class="form-input" id="ratings" placeholder="Enter ratings" name="ratings" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+
+      </div>
+      <div class="form-group">
+        <textarea name="description" rows="8" id="description" placeholder="Enter work description"></textarea>
+
+      </div>
+
+      <button type="submit" class="btn" id="submit_btn" onclick="storeData()">SUBMIT</button>
+
+
+    </form>
+
+  </div>
+
+  <!-- FIREBASE SCRIPTS -->
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+
+</body>
+
+</html>
